@@ -26,7 +26,8 @@
         {{ end }}
         </span>
         {{ if .Truncated }}
-          ... <a class="read-more-symbol" href="{{ .RelPermalink }}">➦</a>
+        ... <a class="read-more-symbol" href="{{ .RelPermalink }}" style="font-size: 16px;color: rgb(70, 128, 237);">more</a>
+          <!-- ... <a class="read-more-symbol" href="{{ .RelPermalink }}">➦</a> -->
         {{ end }}
         </div>
         {{ .Scratch.Delete "draftPage" }}

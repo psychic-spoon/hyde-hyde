@@ -2,7 +2,7 @@
   background-color: $sidebar-color;
   color: rgb(255, 255, 255);
   color: rgba(255, 255, 255, 0.5);
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   text-align: center;
   a {
     color: $gray-1;
@@ -16,10 +16,11 @@
   }
   .sidebar-about {
     text-align: center;
+    margin-top: 5em;
   }
   .author-image {
     display: block;
-    margin-top: 4px;
+    margin-top: 1em; //4px
   }
 }
 
@@ -29,11 +30,12 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
   padding-left: 0;
+  font-size: 1.2em;
 }
 
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  line-height: 2.75;
   .active {
     font-weight: bold;
   }
@@ -47,8 +49,8 @@
 }
 
 .site__description {
-  font-size: 1.285rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .social {
@@ -64,8 +66,8 @@
 }
 
 .img--headshot {
-	height: 115px;
-	width: 115px;
+	height: 150px;
+	width: 150px;
 }
 
 .img--caption {
