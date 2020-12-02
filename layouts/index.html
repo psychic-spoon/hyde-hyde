@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "content" }}
-  <div class="post-list">
+  <div class="post-list" style="margin-top: 2em;">
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
     {{ range $paginator.Pages }}
       {{ if .Draft }}
